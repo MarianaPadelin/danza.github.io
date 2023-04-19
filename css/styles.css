@@ -1,0 +1,134 @@
+body {
+    padding: 10px;
+    background-color: rgb(240, 101, 101);
+    background-image: linear-gradient(rgb(245, 203, 203), rgb(121, 61, 61));
+    background-blend-mode: hard-light;
+}
+
+/*pasar px a vw*/
+main {
+    background-color: bisque;
+    opacity: 40%;    
+    border-color: black;
+    border-width: 2vw;
+    border-radius: 3vw;
+    border-bottom: 2vh;
+    border-top: 2vh;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    border-color: black;
+}
+
+img {
+    border: 5px solid #555;
+}
+
+section {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+table {
+    border: 10px;
+    border-color: black;
+}
+/*.clases{
+    background-color: rgba(49, 47, 47, 70);
+    text-emphasis-color: black; 
+    border: 2px;
+    border-color: black;
+}*/
+
+#botonNombre{
+    text-align:end;
+}
+
+#imagen-tarjeta{
+    width: 20px;
+}
+
+nav {
+    line-height: 48px;
+    background-color:rgba(243, 132, 132, 0.678);; 
+    border-radius: 3vw;
+    text-align: center;
+}
+
+select {
+    line-height: 36px;
+}
+
+input {
+    background-color: white !important;
+}
+
+label {
+    line-height: 36px;
+}
+
+div {
+    display: inline-block;
+    margin: 1vw;
+} /*poner uno al lado del otro*/
+
+.ocultar {
+    display: none;
+}
+
+.button-black {
+    border: 2px solid white !important;
+    background-color: black !important;
+}
+
+.button-black:active {
+    color: black;
+    border: 2px solid black !important;
+    background-color: white !important;
+
+}
+
+.button-outline {
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+.button-outline:active {
+    color: black !important;
+    border: 2px solid black !important;
+    background-color: white !important;
+
+}
+
+.section-login {
+    padding: 40px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: darkslategray;
+    border-radius: 10px;
+}
+
+.section-login label {
+    color: white !important;
+    font-weight: 300;
+}
+
+footer {
+    background-color: rgb(49, 47, 47);
+    opacity: 70%;
+    height: 4cm;
+    text-align: center;
+}

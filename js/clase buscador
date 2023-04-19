@@ -1,0 +1,9 @@
+class buscaNombre {
+    constructor(nombre) {
+        this.nombre = nombre
+        
+    }
+    
+}
+
+const probando = new buscaNombre("hola")

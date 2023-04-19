@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases Disponibles</title>
+    <link rel="stylesheet" href="..\css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <script defer src = ..\js\variables.js></script>
+    <script defer src = ..\js\funciones.js></script>
+    <script defer src = ..\js\dom.consultas.js></script>
+    
+    
+    
+</head>
+<body>
+    <header>
+            <img src="..\media\dibujo.jpg" width="50%" class="center"></img>
+            <nav><a href="index.html">Home</a></nav>
+            <h1>Clases disponibles en el estudio</h1>
+    </header>
+
+    <main>
+        <section id="selecciones">
+            <p>
+                <label for="nombre">¿Qué clase te interesa?</label><br />
+                <select id="nombre">
+                </select>
+                <button id="botonNombre">BUSCAR</button>
+            </p>
+
+            <p>
+                <label for="horario">¿Qué horarios tenés disponibles?</label><br />
+                <select id="horario">
+                    <option value="Mañana">Mañana</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noche">Noche</option>
+                </select>
+                <button id="botonHorario">BUSCAR</button>
+            </p>
+            
+            <p>
+                <label for="edad">¿Qué edad tenés?</label><br />
+                <select id="edad">
+                    <option value="inicial">3 a 5 años</option>
+                    <option value="infantil">6 a 10 años</option>
+                    <option value="teen">11 a 14 años</option>
+                    <option value="juvenil">15 a 17 años</option>
+                    <option value="adulto">18 a 40 años</option>
+                    <option value="mayor">+41 años</option>
+                </select>
+                <button id="botonEdad">BUSCAR</button>
+            </p>
+        </section>
+
+        <section>
+            <table id="resultados">
+                <caption>
+                    Aquí encontraras las clases que se ajustan a tu búsqueda        
+                </caption>
+                <thead>
+                    <tr>
+                        <th>NOMBRE</th>
+                        <th>DIFICULTAD</th>
+                        <th>EDAD</th>
+                        <th>TURNO</th>
+                        <th>HORARIO</th>
+                    </tr>
+                </thead>                
+            </table>            
+        </section>
+
+        <section id="contactanos">
+            <h2>Contactanos</h2>
+            <form action="mailto:marianapadelin@gmail.com"  method="post" subject="Consulta Danza">  
+                <section id="rellenar">         
+                    <label for="nombre">
+                        Ingresa tu Nombre:
+                        <input type="nombre" id="nombre" placeholder="Nombre">
+                    </label>                
+                    <label for="email">
+                            Ingresa tu Email:
+                            <input type="email" id="email" placeholder="Correo electrónico">
+                    </label>
+
+                    <label for="whatsapp">
+                        Ingresa tu número de celular:
+                        <input type="whatsapp" id="whatsapp" placeholder="Número de celular">
+                    </label>
+                    <label for=medio>¿Por donde preferís que nos comuniquemos?
+                    <input type="radio" name="opcion" value="email" /> Email
+                    <input type="radio" name="opcion" value="whatsapp" /> Whatsapp
+                    <label for="consulta">
+                        Escribinos tu consulta:
+                        <textarea id="consulta" placeholder="Consulta"></textarea>            
+                    </label>
+                </section>      
+                <section class="botones">
+                    <button id="enviarmail" type= "submit" value= "enviar" >ENVIAR</button>
+                    <button type="reset" value="borrar">BORRAR</button>
+                </section>
+            </form>
+        </section>
+        
+    </main>
+    <br>    
+    <footer>
+        Danzas Mariana Padelin | Instagam: <a href="https://www.instagram.com/pas.de.lin/" target="_blank">@pas.de.lin</a> | Whatsapp: 1169551441
+    </footer>
+
+</body>
+</html>
